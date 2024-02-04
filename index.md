@@ -60,7 +60,6 @@ exemple).
 
 ## Sujet de la SAE
 
-
 Nous avons mis en place un pipeline de données depuis votre honeypots TPOT vers le serveur NextCloud de votre entreprise. Vous avez maintenant des logs de sécurité et des logs d'activité de votre honeypots. Il va falloir les exploiter !
 
 ### Organisation de la SAE
