@@ -7,6 +7,11 @@ exports:
 ---
 ## Description nationale de la SAE.
 
+**Compétences ciblées:**
+
+– Coordonner des infrastructures modulaires
+
+– Accompagner le développement d’applications
 
 **Objectifs et problématique professionnelle :**
 
