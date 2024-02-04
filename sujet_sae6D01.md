@@ -1,7 +1,7 @@
 ---
 exports:
   - format: pdf
-    template:  plain_latex
+    template:  arxiv_two_column
     output: pdfs/sujet-sae6D01.pdf
 ---
 

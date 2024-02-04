@@ -1,0 +1,199 @@
+
+--boundary_.oOo._H8jYFLNucbZNssTtPDEFgIjLYqko+4fS
+Content-Length: 5513
+Content-Type: application/octet-stream
+If-Match: "f9c587afb8abc166f2395f81c1561d17"
+X-File-MD5: be629577cda719fd43f6e0a4c845f05d
+X-File-Mtime: 1707078546
+X-File-Path: /formations/latex/Sujet_R6.DevCloud.04/_build/temp/mystvsE5th/sujet-sae6D01.tex
+
+% Created with jtex v.1.0.13
+\documentclass{article}
+\usepackage{hyperref}
+\usepackage{datetime}
+\usepackage{graphicx}
+\usepackage{natbib}
+\bibliographystyle{abbrvnat}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%  imports  %%%%%%%%%%%%%%%%%%%
+\usepackage{amsmath}
+\usepackage{framed}
+\usepackage{url}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{glossaries}
+\makeglossaries
+
+
+
+% colors for hyperlinks
+\hypersetup{colorlinks=true, allcolors=blue}
+
+\newcommand{\logo}{
+  \href{https://curvenote.com}{\includegraphics[width=2cm]{curvenote.png}}
+}
+
+\title{Informations}
+
+\author{Jean-Marc Pouchoulon}
+
+\newdate{articleDate}{4}{2}{2024}
+\date{\displaydate{articleDate}}
+
+\begin{document}
+\maketitle
+\begin{center}\logo\end{center}
+
+
+\textbf{Compétences ciblées:}
+
+-- Coordonner des infrastructures modulaires
+
+-- Accompagner le développement d'applications
+
+\textbf{Objectifs et problématique professionnelle :}
+
+Le professionnel R\&T spécialisé en Développement Système et Cloud fait évoluer des applications existantes au sein de
+son entreprise en développant de nouvelles fonctionnalités. L'application pouvant déjà être en production et utilisée par des
+collaborateurs ou des clients, il ne peut donc pas interrompre l'usage qui en est fait. Il intègre ses apports en utilisant une
+approche CI/CD (intégration continue, déploiement continu). Cette approche permet de tester les nouvelles fonctionnalités
+en s'assurant de leurs compatibilités avec l'existant avant de planifier leurs mises à disposition auprès des utilisateurs sans
+interruption de service.
+
+\textbf{Descriptif générique :}
+
+Le professionnel DevCloud met en œuvre la chaîne CI/CD d'une application structurée en microservices, intervient et surveille
+les différentes étapes du cycle de développement (dont la gestion des erreurs et des messages). Afin d'assurer le développement des fonctionnalités, il applique la démarche suivante :
+
+-- la mise en place de la chaîne d'intégration continue (CI) et ses différents tests ;
+
+-- la mise en place de la chaîne de développement continue (CD) incluant la génération du livrable applicatif sous la forme
+d'un conteneur et le déploiement automatique de l'application avec ses améliorations ;
+
+-- la vérification de la santé du code incluant le monitoring de l'application, un système d'alertes, la prise en compte de la
+sécurité à tous les niveaux de l'application et la gestion des messages (incluant les logs) renvoyés par l'application ;
+
+-- la planification du déploiement avec le nettoyage des bases de données de l'orchestrateur, l'automatisation du déploie-
+ment en tenant compte de l'activité et la gestion d'un backup ;
+
+-- la gestion des agents de messages pour la communication entre deux microservices (sous la forme d'une file FIFO par
+exemple).
+
+\textbf{Apprentissages critiques :}
+
+-- AC34.01DevCloud | Concevoir, administrer et superviser une infrastructure Cloud
+
+-- AC34.02DevCloud | Orchestrer les ressources Cloud
+
+-- AC34.03DevCloud | Investiguer sur les incidents et les résoudre afin d'améliorer la qualité et la fiabilité des infrastructures
+
+-- AC35.01DevCloud | Adopter les pratiques de pilotage de projet
+
+-- AC35.02DevCloud | Concevoir, gérer et sécuriser un environnement de microservices
+
+-- AC35.03DevCloud | Gérer son infrastructure comme du code
+
+-- AC35.04DevCloud | Gérer une chaîne d'intégration et/ou de déploiement continu
+
+\section{Informations}
+
+\begin{framed}
+\textbf{Note}\\
+Ce document est écrit avec Myst Markdown qui améliore les possibilités de Markdown. Vous devrez aussi utiliser ce format pour vos rendus.
+\end{framed}
+
+Remplir de jolis tableaux de compétences :kissing:
+
+Je peux faire des maths aussi
+
+$E=mc^2$
+
+mettre des images de chats:
+
+\begin{figure}[!htbp]
+\centering
+\includegraphics[width=0.625\linewidth]{files/chats-00ce8bd69eb8aebbc2204cc6d332458f.jpg}
+\caption*{Ils sont beaux mes chats non ? {\textasciitilde}{\textasciitilde}2 points \textbf{en plus} si vous dites yes sir{\textasciitilde}{\textasciitilde} !}
+\end{figure}
+
+On peut aussi \newline
+``breaker'' le texte \newline
+à la ``latex''
+avec {\textbackslash}~(que vous ne voyez pas ici)
+
+Avez-vous bien
+
+\begin{itemize}
+\item compris ?
+\item pas compris ?
+\end{itemize}
+
+C'est du markdow\textsuperscript{2}!
+
+Plus avoir plus d'exemples allez sur \href{https://myst-parser.readthedocs.io/en/latest/}{Myst Markdown}
+
+Dans un premier temps Il vous est demandé d'automatiser de rendre accessible ces logs.
+
+Dans un second temps d'en automatiser l'exploitation afin de produire:
+
+\begin{itemize}
+\item des rapports de sécurité (bilan synthétique des attaques et des tentatives d'attaques, nombre de virus) sous forme d'une application web déployé dans un cluster Kubernetes.
+\item des repository de listes noires accessibles sur gitlab et github et mis à jour automatiquement.  Vous générerez automatiquement des scripts de pare-feu pour NetFilter/iptables-nftables.
+\end{itemize}
+
+Le projet sera collaboratif  et les scripts seront versionnés sur un repository git. Le build et le déploiement des scripts se fera sur un serveur de CI/CD (gitlab ou github).
+Vous utiliserez un serveur mis à disposition par votre entreprise pour le déploiement de votre solution
+
++mattermost
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%  acronyms & glossary  %%%%%%%%%%%%%
+\printglossaries
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+\end{document}
+
+--boundary_.oOo._H8jYFLNucbZNssTtPDEFgIjLYqko+4fS
+Content-Length: 176
+Content-Type: application/octet-stream
+If-Match: "7e2cdfda5b06cfff745d58efc838e31f"
+X-File-MD5: a8f03042a5139623e0969187abc65eaf
+X-File-Mtime: 1707078546
+X-File-Path: /formations/latex/Sujet_R6.DevCloud.04/_build/templates/site/myst/book-theme/book-theme-main/public/build/_assets/add-R4QSNJUY.svg
+
+<svg xmlns="http://www.w3.org/2000/svg" width="16" viewBox="0 0 24 24">
+  <g class="jp-icon3" fill="#616161">
+    <path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"/>
+  </g>
+</svg>
+
+--boundary_.oOo._H8jYFLNucbZNssTtPDEFgIjLYqko+4fS
+Content-Length: 1042
+Content-Type: application/octet-stream
+If-Match: "283c609327da09e6083136df7df54f62"
+X-File-MD5: 7253556427c56e2e4eb9cf8fb269f35d
+X-File-Mtime: 1707078546
+X-File-Path: /formations/latex/Sujet_R6.DevCloud.04/_build/templates/site/myst/book-theme/book-theme-main/public/build/_assets/add-above-5YUGWHEL.svg
+
+<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_137_19492)">
+<path class="jp-icon3" d="M4.75 4.93066H6.625V6.80566C6.625 7.01191 6.79375 7.18066 7 7.18066C7.20625 7.18066 7.375 7.01191 7.375 6.80566V4.93066H9.25C9.45625 4.93066 9.625 4.76191 9.625 4.55566C9.625 4.34941 9.45625 4.18066 9.25 4.18066H7.375V2.30566C7.375 2.09941 7.20625 1.93066 7 1.93066C6.79375 1.93066 6.625 2.09941 6.625 2.30566V4.18066H4.75C4.54375 4.18066 4.375 4.34941 4.375 4.55566C4.375 4.76191 4.54375 4.93066 4.75 4.93066Z" fill="#616161" stroke="#616161" stroke-width="0.7"/>
+</g>
+<path class="jp-icon3" fill-rule="evenodd" clip-rule="evenodd" d="M11.5 9.5V11.5L2.5 11.5V9.5L11.5 9.5ZM12 8C12.5523 8 13 8.44772 13 9V12C13 12.5523 12.5523 13 12 13L2 13C1.44772 13 1 12.5523 1 12V9C1 8.44772 1.44771 8 2 8L12 8Z" fill="#616161"/>
+<defs>
+<clipPath id="clip0_137_19492">
+<rect class="jp-icon3" width="6" height="6" fill="white" transform="matrix(-1 0 0 1 10 1.55566)"/>
+</clipPath>
+</defs>
+</svg>
+
+--boundary_.oOo._H8jYFLNucbZNssTtPDEFgIjLYqko+4fS
+Content-Length: 135279
+Content-Type: application/octet-stream
+If-Match: "726e50cb92a3fea347eb38755a99214b"
+X-File-MD5: c89283ff9ace9073abeea8aca7ea4ad1
+X-File-Mtime: 1707078546
+X-File-Path: /formations/latex/Sujet_R6.DevCloud.04/_build/temp/mystvsE5th/files/chats-00ce8bd69eb8aebbc2204cc6d332458f.jpg
+
+���� 
