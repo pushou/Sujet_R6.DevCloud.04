@@ -1,7 +1,7 @@
 # See docs at: https://mystmd.org/guide/frontmatter
 version: 1
 project:
-  title: "R6.DevCloud.04"
+  title: Sujet de la SAE R6.DevCloud.04
   description: Sujet de la SAE R6.DevCloud.04
   keywords: [CI/CD Cloud DevOps Gitlab] 
   authors: 
