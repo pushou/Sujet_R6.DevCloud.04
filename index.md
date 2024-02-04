@@ -1,4 +1,5 @@
 ---
+title: SAE 6D01 - Développement Système et Cloud
 exports:
   - format: pdf
     template:  arxiv_two_column
@@ -6,11 +7,6 @@ exports:
 ---
 ## Description nationale de la SAE.
 
-**Compétences ciblées:**
-
-– Coordonner des infrastructures modulaires
-
-– Accompagner le développement d’applications
 
 **Objectifs et problématique professionnelle :**
 
