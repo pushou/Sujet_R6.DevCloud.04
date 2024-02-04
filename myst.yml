@@ -1,0 +1,24 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  title: "R6.DevCloud.04"
+  description: Sujet de la SAE R6.DevCloud.04
+  keywords: [CI/CD Cloud DevOps Gitlab] 
+  authors: 
+    - name: Jean-Marc Pouchoulon
+      affiliation: Enseignant IUT Béziers    
+  github: https://github.com/pushou/SUJET-SAE.R6.DevCloud.04
+  license:
+    code: MIT
+    content: CC-BY-4.0
+  # bibliography: []
+site:
+  template: book-theme
+  title: Sujet de la SAE R6.DevCloud.04
+  # options:
+  #   logo: site_logo.png
+  #nav: []
+  #actions:
+  #  - title: Learn More
+  #    url: https://mystmd.org/guide
+  domains: []
