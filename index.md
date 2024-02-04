@@ -37,22 +37,20 @@ ment en tenant compte de l’activité et la gestion d’un backup ;
 – la gestion des agents de messages pour la communication entre deux microservices (sous la forme d’une file FIFO par
 exemple).
 
-**Apprentissages critiques :**
 
-– AC34.01DevCloud | Concevoir, administrer et superviser une infrastructure Cloud
-
-– AC34.02DevCloud | Orchestrer les ressources Cloud
-
-– AC34.03DevCloud | Investiguer sur les incidents et les résoudre afin d’améliorer la qualité et la fiabilité des infrastructures
-
-– AC35.01DevCloud | Adopter les pratiques de pilotage de projet
-
-– AC35.02DevCloud | Concevoir, gérer et sécuriser un environnement de microservices
-
-– AC35.03DevCloud | Gérer son infrastructure comme du code
-
-– AC35.04DevCloud | Gérer une chaîne d’intégration et/ou de déploiement continu
-
+:::{table} **Apprentissages critiques**
+:widths: auto
+:align: center
+|AC              | Description | 
+|----------------|-------------|
+|AC34.01DevCloud | Concevoir, administrer et superviser une infrastructure Cloud|
+|AC34.02DevCloud | Orchestrer les ressources Cloud|
+|AC34.03DevCloud | Investiguer sur les incidents et les résoudre afin d’améliorer la qualité et la fiabilité des infrastructures|
+|AC35.01DevCloud | Adopter les pratiques de pilotage de projet|
+|AC35.02DevCloud | Concevoir, gérer et sécuriser un environnement de microservices|
+|AC35.03DevCloud | Gérer son infrastructure comme du code|
+|AC35.04DevCloud | Gérer une chaîne d’intégration et/ou de déploiement continu|
+:::
 
 ## Sujet de la SAE
 
