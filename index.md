@@ -1,9 +1,5 @@
 ---
 title: SAE 6D01 - Développement Système et Cloud
-exports:
-  - format: pdf
-    template:  arxiv_two_column
-    output: pdfs/sujet-sae6D01.pdf
 ---
 ## Description nationale de la SAE.
 
