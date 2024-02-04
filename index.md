@@ -41,6 +41,7 @@ exemple).
 :::{table} **Apprentissages critiques**
 :widths: auto
 :align: center
+
 |AC              | Description | 
 |----------------|-------------|
 |AC34.01DevCloud | Concevoir, administrer et superviser une infrastructure Cloud|
