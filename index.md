@@ -81,7 +81,7 @@ Un coéquipier co-validera les MR/PR et les "mergera" avec la branche main.
 ### Etapes de la SAE et livrables
 
 - Vous vous partagez les indicateurs de sécurité à traiter entre les membres de l'équipe. Chaque indicateur de sécurité donnera lieu à un notebook Python.
-- 
+  
 - Vous décrirez Les indicateurs de sécurité (synthèse, liste noiren, identification viral avec Yara)  que vous allez extraire de chaque source de données (suricata,dionea,cowrie,p0f etc.)., virus)
 Il devront être validés par votre responsable (moi). 
 
