@@ -1,5 +1,5 @@
 ---
-title: SAE 6D01 - Développement Système et Cloud. onnayprime
+title: SAE 6D01 - Développement Système et Cloud. 
 ---
 ## Description nationale de la SAE.
 
