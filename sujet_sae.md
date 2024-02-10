@@ -1,6 +1,6 @@
 ## Sujet de la SAE
 
-Nous avons mis en place un pipeline de données depuis votre honeypots TPOT vers le serveur NextCloud de votre entreprise. Vous avez maintenant des logs de sécurité é de votre honeypot. Il va falloir les exploiter !
+Nous avons mis en place un pipeline de données depuis votre honeypot TPOT vers le serveur NextCloud de votre entreprise. Vous avez maintenant des logs de sécurité  de votre honeypot. Il va falloir les exploiter !
 
 ### Organisation de la SAE
 
